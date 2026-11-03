@@ -1,0 +1,5 @@
+IO_LOC  "clk" 4; // PIN04_SYS_CLK: 27 MHz (generates warning PR1014)
+IO_PORT "clk" IO_TYPE=LVCMOS33;
+
+IO_LOC  "rst" 87; // PIN87_MODE1_KEY2
+IO_PORT "rst" IO_TYPE=LVCMOS33;
