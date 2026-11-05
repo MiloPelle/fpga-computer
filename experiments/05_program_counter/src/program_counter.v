@@ -2,8 +2,8 @@ module program_counter (
     input clk,
     input rst,
     input jump,
-    input [3:0] jump_address
-    input incr
+    input [3:0] jump_address,
+    input incr,
     output reg [3:0] pc_out
 );
     always @(posedge clk) begin

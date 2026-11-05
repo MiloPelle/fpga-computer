@@ -1,2 +1,4 @@
 *.vcd
 *.gprj.user
+impl/
+*.fs

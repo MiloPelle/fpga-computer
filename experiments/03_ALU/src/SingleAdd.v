@@ -2,7 +2,7 @@ module SingleAdd (
     input  carry_in,
     input  a,
     input  b,
-    output sum
+    output sum,
     output carry_out
 );
     assign sum = a ^ b ^ carry_in;

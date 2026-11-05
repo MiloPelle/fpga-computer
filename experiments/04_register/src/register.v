@@ -12,3 +12,4 @@ module register(
             data_out <= data_in; // Load new data into the register
         end
     end
+endmodule

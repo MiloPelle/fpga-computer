@@ -9,11 +9,14 @@ module tb_AddSub8Bit;       // no ports: nothing connects to a testbench
     // Outputs you watch → wire (the ALU drives them)
     wire [7:0] result;
     wire       carry;
+    wire zero;
 
     // The design under test, often called "dut"
     AddSub8Bit dut (
-        .a(a), .b(b), .sub(sub),
-        .result(result), .carry(carry)
+    .a(a), .b(b), .sub(sub),
+    .result(result),
+    .carry_out(carry),      // ALU's port name . (testbench's wire name)
+    .zero_flag(zero)
     );
 
     initial begin

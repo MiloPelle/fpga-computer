@@ -1,0 +1,12 @@
+{
+    // Turn off gray "ghost text" suggestions from any AI extension
+    "editor.inlineSuggest.enabled": false,
+
+    // Turn off GitHub Copilot completely in this project
+    "github.copilot.enable": {
+        "*": false
+    },
+
+    // Turn off Copilot's "next edit" suggestions too
+    "github.copilot.nextEditSuggestions.enabled": false
+}
